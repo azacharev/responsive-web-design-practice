@@ -1,0 +1,42 @@
+<!--
+Create a static HTML page. You may use whatever content you like as long as you have: A navigation bar at the top of the page. This must include at least 5 navigation links 3 paragraphs of main content (lipsum.com) Include at least 1 large sized image (placehold.it) Include a gallery of at least 4 smaller images
+
+Add css so that: The navigation bar and the main content are centered on the page and are never wider than 960px The links in the main navigation should be inline (side-by-side) The gallery of images should also be inline The large-format image should never be larger than its container
+
+Make it responsive! At sub-960px width, the navigation bar and main content should scale so that it never extends past the browser edge At sub-960px width, the navigation bar and main content should be padded away from the edge of the browser (10-20px on either side) At the proper point (when items start to stack), collapse the main navigation so the items are now full width and stack vertically At the proper point (when items start to stack), collapse the image gallery so the items are now full width and stack vertically Questions for Understanding What browsers support Media Queries? What is a breakpoint? What performance considerations are relevant to Responsive Web Design? -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href ="main.css">
+</head>
+
+<body>
+<div class = "nav-bar">
+  <ul class = "nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#page1">Page1</a></li>
+  <li><a href="#page2">Page2</a></li>
+  <li><a href="#page3">Page3</a></li>
+</ul>
+</div>
+
+<!--<div class = "content"> -->
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<img src="http://placehold.it/350x150">
+<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+</p>
+<p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+</p>
+</div>
+
+<div>
+<img class = "small-img" src="http://placehold.it/140x100">
+<img class = "small-img" src="http://placehold.it/140x100">
+<img class = "small-img" src="http://placehold.it/140x100">
+<img class = "small-img" src="http://placehold.it/140x100">
+</div>
+
+</body>
+</html>
